@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Portafolio | Fabrizio Alekzander</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Desarrollador Full Stack con más de 3 años de experiencia en Java, Spring Boot, Angular y .NET.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#inicio" class="logo">Alekz Dev.</a>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></label>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section_principal">
+        <section class="home" id="inicio">
+            <div class="home-content">
+                <h1>Me llamo <span>Fabrizio Alekzander</span></h1>
+                <p>
+                    Soy desarrollador Full Stack con más de 3 años de experiencia en aplicaciones web. Me especializo
+                    en backend con Java, Spring Boot y .NET, creando APIs REST e integrando servicios con PostgreSQL y
+                    SQL Server. También trabajo con Angular y con tecnologías reactivas como Spring WebFlux y R2DBC.
+                    Construyo soluciones web escalables, eficientes y fáciles de mantener.
+                </p>
+                <div class="home-buttons">
+                    <a href="#contacto" class="btn">Contáctame</a>
+                    <a href="#projects" class="btn btn-outline">Ver proyectos</a>
+                </div>
+            </div>
+            <div class="home-picture">
+                <img class="img" src="./img/picture_profile.jpg" alt="Foto de Fabrizio Alekzander">
+            </div>
+        </section>
+
+        <section class="about" id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="about-grid">
+                <div>
+                    <p>
+                        Trabajo desde el backend hasta la interfaz: diseño APIs, optimizo consultas SQL y armo
+                        dashboards que las áreas de una empresa usan a diario. Me gusta aprender y resolver problemas
+                        con soluciones claras.
+                    </p>
+                    <h3>Educación</h3>
+                    <ul class="plain-list">
+                        <li><strong>Ingeniería de Sistemas</strong> — Universidad Tecnológica del Perú (UTP), 2018–2021.
+                            Egresado.</li>
+                        <li><strong>Desarrollo de Software</strong> — SENATI, 2016–2018. Egresado técnico.</li>
+                        <li><strong>Cursos en Udemy</strong> — Desarrollo de Aplicaciones Móviles y Administración de
+                            Bases de Datos.</li>
+                    </ul>
+                    <h3>Idiomas</h3>
+                    <ul class="plain-list">
+                        <li>Español: nativo</li>
+                        <li>Inglés: intermedio técnico</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Habilidades</h3>
+                    <dl>
+                        <dt>Backend</dt>
+                        <dd class="project-tech"><span>Java</span><span>Spring
+                                Boot</span><span>WebFlux</span><span>R2DBC</span><span>C#</span><span>.NET</span><span>NestJS</span>
+                        </dd>
+                        <dt>Frontend</dt>
+                        <dd class="project-tech">
+                            <span>Angular</span><span>React</span><span>Next.js</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </dd>
+                        <dt>Bases de datos</dt>
+                        <dd class="project-tech"><span>PostgreSQL</span><span>SQL
+                                Server</span><span>Oracle</span><span>MySQL</span></dd>
+                        <dt>Móvil</dt>
+                        <dd class="project-tech"><span>Kotlin</span><span>Android Studio</span></dd>
+                        <dt>Herramientas</dt>
+                        <dd class="project-tech">
+                            <span>Git</span><span>GitLab</span><span>Swagger</span><span>IIS</span><span>JWT</span><span>RBAC</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experiencia">
+            <h2>Experiencia profesional</h2>
+            <ol class="timeline">
+                <li>
+                    <time>Mar 2026 – Sep 2026</time>
+                    <h3>Analista Full Stack · Intech</h3>
+                    <p>APIs REST con Java y Spring Boot, queries SQL para reportes de varias áreas y un dashboard
+                        gerencial de KPIs con Spring Boot y Angular. Apoyo en QA y gestión de ramas en GitLab.</p>
+                </li>
+                <li>
+                    <time>Dic 2025 – Mar 2026</time>
+                    <h3>Analista Full Stack · Summit Consultora</h3>
+                    <p>Sistema de gestión documental con ASP.NET MVC, Angular y SQL Server para más de 50 usuarios
+                        concurrentes. APIs documentadas con Swagger, autenticación JWT y control de acceso por roles.
+                    </p>
+                </li>
+                <li>
+                    <time>May 2024 – Ago 2025</time>
+                    <h3>Analista Full Stack · Brisas del Titicaca</h3>
+                    <p>Portal corporativo con Next.js y NestJS (SSR y SSG), más de 15 APIs RESTful y más de un año de
+                        soporte en producción con mantenimiento mensual.</p>
+                </li>
+                <li>
+                    <time>Jul 2022 – Feb 2023</time>
+                    <h3>Android y Backend Developer · Viajes del Pacífico</h3>
+                    <p>App Android nativa en Kotlin integrada con un backend .NET Core y Oracle. Publicada en Google
+                        Play Store, con 8 meses de soporte activo.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Proyectos destacados</h2>
+
+            <div class="project-list">
+
+                <div class="project-item">
+                    <img src="assets/images/project-sistematizate.jpg" alt="App móvil de facturación electrónica">
+                    <h3>Facturación electrónica móvil</h3>
+                    <p>App móvil para consultar y dar seguimiento a comprobantes electrónicos. Backend .NET multi-tenant
+                        con Row-Level Security y APIs alineadas con SUNAT.</p>
+                    <div class="project-tech">
+                        <span>.NET</span><span>SQL
+                            Server</span><span>JWT</span><span>RBAC</span><span>Multi-tenant</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="assets/images/project-intech.jpg"
+                        alt="Dashboard empresarial desarrollado con Java y Angular">
+                    <h3>Dashboard de KPIs empresariales</h3>
+                    <p>Dashboard gerencial que consolida los indicadores clave de las distintas áreas de la empresa.</p>
+                    <div class="project-tech">
+                        <span>Java</span><span>Spring Boot</span><span>Angular</span><span>SQL</span><span>GitLab</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="assets/images/project-document-management.jpg"
+                        alt="Sistema de gestión documental empresarial">
+                    <h3>Sistema de gestión documental</h3>
+                    <p>Sistema empresarial con APIs REST, autenticación JWT y control de acceso por roles.</p>
+                    <div class="project-tech">
+                        <span>C#</span><span>ASP.NET MVC</span><span>Angular</span><span>SQL
+                            Server</span><span>JWT</span><span>Swagger</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img src="assets/images/project-corporate.jpg"
+                        alt="Portal corporativo desarrollado con Next.js y NestJS">
+                    <h3>Portal corporativo con webcams en vivo</h3>
+                    <p>Portal cultural con SSR y SSG y APIs REST para blogs, noticias, eventos y galerías.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span><span>NestJS</span><span>REST API</span><span>SSR</span><span>SSG</span>
+                    </div>
+                    <a class="link" href="#" target="_blank" rel="noopener">Ver sitio</a>
+                </div>
+
+                <div class="project-item">
+                    <img src="assets/images/project-mobile.jpg"
+                        alt="Aplicación móvil Android para gestión de operaciones">
+                    <h3>App móvil de gestión operativa</h3>
+                    <p>App Android que automatiza procesos de campo y sincroniza datos aun con conectividad variable.
+                    </p>
+                    <div class="project-tech">
+                        <span>Kotlin</span><span>Android SDK</span><span>.NET Core</span><span>Oracle</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="sub">Proyectos freelance</h3>
+            <ul class="freelance">
+                <li><strong>Farmacus Salud</strong> Plataforma web para el sector salud. <a class="link" href="#"
+                        target="_blank" rel="noopener">Ver sitio</a></li>
+                <li><strong>Salud Integral Web</strong> Sitio corporativo del sector salud. <a class="link" href="#"
+                        target="_blank" rel="noopener">Ver sitio</a></li>
+                <li><strong>Gimnasio Fit Perú</strong> Sitio web para el sector fitness. <a class="link" href="#"
+                        target="_blank" rel="noopener">Ver sitio</a></li>
+            </ul>
+        </section>
+
+        <section class="services" id="servicios">
+            <h2>Servicios</h2>
+            <div class="service-list">
+                <div><i class="fa-solid fa-globe"></i>
+                    <h3>Sitios web corporativos</h3>
+                    <p>Páginas rápidas, optimizadas para buscadores y fáciles de actualizar.</p>
+                </div>
+                <div><i class="fa-solid fa-server"></i>
+                    <h3>APIs REST y backend</h3>
+                    <p>Servicios seguros con Java, .NET o NestJS, documentados con Swagger.</p>
+                </div>
+                <div><i class="fa-solid fa-chart-line"></i>
+                    <h3>Dashboards de KPIs</h3>
+                    <p>Paneles que reúnen los indicadores de tu negocio en un solo lugar.</p>
+                </div>
+                <div><i class="fa-brands fa-android"></i>
+                    <h3>Apps Android</h3>
+                    <p>Aplicaciones nativas conectadas a tu sistema y publicadas en Google Play.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente? Escríbeme y lo conversamos.</p>
+            <div class="home-buttons">
+                <a href="https://wa.me/51964010973" class="btn" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-whatsapp"></i> Escribir por WhatsApp</a>
+                <a href="mailto:tucorreo@ejemplo.com" class="btn btn-outline"><i class="fa-solid fa-envelope"></i>
+                    Enviar correo</a>
+                <a href="assets/cv-fabrizio-alekzander.pdf" class="btn btn-outline" download><i
+                        class="fa-solid fa-download"></i> Descargar CV</a>
+            </div>
+            <p class="social">
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fabrizio Alekzander. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
